@@ -6,6 +6,7 @@ urlpatterns = [
     path("contact",views.contact, name= "contact"),
     path("properties",views.properties, name= "properties"),
     path("property",views.property, name= "property-details"),
+    path('dashboard', views.dashboard, name="dashboard"),
     
     
 ]
